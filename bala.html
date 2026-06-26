@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #333;
+        }
+
+        header{
+            background:#fff;
+            padding:20px;
+            text-align:center;
+            box-shadow:0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1{
+            color:#007bff;
+        }
+
+        nav{
+            margin-top:10px;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:#555;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        .hero{
+            text-align:center;
+            padding:100px 20px;
+            color:white;
+        }
+
+        .hero h2{
+            font-size:50px;
+        }
+
+        .hero p{
+            margin-top:20px;
+            font-size:20px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:30px;
+            padding:12px 25px;
+            background:white;
+            color:#007bff;
+            text-decoration:none;
+            border-radius:5px;
+            font-weight:bold;
+        }
+
+        .services{
+            background:white;
+            padding:50px;
+            text-align:center;
+        }
+
+        .card{
+            display:inline-block;
+            width:250px;
+            padding:20px;
+            margin:15px;
+            background:#f4f4f4;
+            border-radius:10px;
+            box-shadow:0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Balamurugan S</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>DevOps Engineer</h2>
+    <p>AWS | Linux | Git | Docker | Jenkins | Kubernetes</p>
+    <a href="#" class="btn">Learn More</a>
+</section>
+
+<section class="services">
+    <h2>My Skills</h2>
+
+    <div class="card">
+        <h3>AWS Cloud</h3>
+        <p>EC2, S3, IAM, Route53, VPC, ALB</p>
+    </div>
+
+    <div class="card">
+        <h3>Linux</h3>
+        <p>Shell Scripting, User Management, Permissions</p>
+    </div>
+
+    <div class="card">
+        <h3>DevOps Tools</h3>
+        <p>Git, Jenkins, Docker, Kubernetes, Terraform</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Balamurugan S | DevOps Engineer</p>
+</footer>
+
+</body>
+</html>
